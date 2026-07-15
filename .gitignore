@@ -1,0 +1,42 @@
+# ------------------------------------------------------------------
+# Root .gitignore for the SS-Infotech monorepo (frontend + admin + backend)
+# Each sub-project also has its own .gitignore for project-specific rules;
+# this file catches anything shared across all of them.
+# ------------------------------------------------------------------
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
