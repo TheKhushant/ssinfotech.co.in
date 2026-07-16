@@ -40,3 +40,6 @@ Thumbs.db
 *.sln
 *.sw?
 *.local
+
+.vercel
+.env*
